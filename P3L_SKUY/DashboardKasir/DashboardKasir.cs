@@ -58,5 +58,9 @@ namespace P3L_SKUY.DashboardKasir
             }
         }
 
+        private void gunaAdvenceButton1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Pembayaran.KasirLayanan());
+        }
     }
 }

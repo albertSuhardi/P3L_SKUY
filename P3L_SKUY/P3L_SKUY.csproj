@@ -201,6 +201,12 @@
     <Compile Include="DashboardKasir\DashboardKasir.Designer.cs">
       <DependentUpon>DashboardKasir.cs</DependentUpon>
     </Compile>
+    <Compile Include="DashboardKasir\Pembayaran\KasirLayanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardKasir\Pembayaran\KasirLayanan.Designer.cs">
+      <DependentUpon>KasirLayanan.cs</DependentUpon>
+    </Compile>
     <Compile Include="DashboardKasir\Profile\Profile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +235,7 @@
     <Compile Include="myclass\Produks.cs" />
     <Compile Include="myclass\Profiles.cs" />
     <Compile Include="myclass\Supplier.cs" />
+    <Compile Include="myclass\TransaksiLayanan.cs" />
     <Compile Include="myclass\UkuranHewan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -285,6 +292,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DashboardKasir\DashboardKasir.resx">
       <DependentUpon>DashboardKasir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardKasir\Pembayaran\KasirLayanan.resx">
+      <DependentUpon>KasirLayanan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DashboardKasir\Profile\Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
